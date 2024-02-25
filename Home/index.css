@@ -1,0 +1,240 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.bg-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.left-container{
+    height: 100%;
+    width: 20%;
+    border: 2px solid rgb(119, 106, 106);
+    position: fixed;
+}
+.logo{
+    height: 19%;
+    width: 100%;
+    background-image: url("/Home/acadamy\ logo.png");
+    background-size: cover;
+    background-position: center;
+}
+.for-content{
+    height: 80%;
+    width: 100%;
+    background-color: white;  
+}
+.list{
+    list-style: none;
+    font-size: 12px;
+    margin: 30px;
+    
+}
+.list li{
+    margin: 30px;
+    
+}
+.btn{
+    border: 0px;
+    font-size: 20px;
+    background-color: white;
+}
+.right-container{
+    width: 80%;
+    height: 100%;
+    margin-left: 20%;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+}
+.container1{
+    height: 48%;
+    width:100%;
+    margin-top: 20px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center; 
+}
+.box{
+    height: 100%;
+    width: 98%;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+      
+}
+
+.box1{
+    height: 100%;
+    width: 70%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background-image: radial-gradient(rgb(48, 26, 48),rgb(44, 3, 62), rgb(50, 4, 58), rgb(38, 2, 40));   
+}
+
+.slogun{
+    color: white;
+    margin: 24px;
+}
+.name{
+    color: white;
+    font-size: 50px;
+    margin-left: 25px;
+    
+}
+.pra{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.pra1{
+    color: white;
+    margin-top: 30px;
+    margin-left: 27px;
+    font-size: 18px;
+   
+}
+.btn2{
+    height: 12%;
+    width: 27%;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.box2{
+    height: 100%;
+    width: 30%;
+    background-image: url("/Home/coding.webp");
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.container2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 23px;
+}
+.heading{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgba(42, 42, 67, 0.981);
+}
+
+.content1{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;  
+}
+.for-pragraph{
+    height: 100%;
+    width: 70%;
+}
+.head1{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-size: 28px;
+    color: rgb(41, 32, 50);
+}
+.theory{
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.image1{
+    height: 100%;
+    width: 30%;   
+}
+.image1 img{
+    height: 100%;
+    width: 100%;
+     
+}
+.end-container{
+    height: 25%;
+    width: 100%;
+}
+.end1{
+    text-align: center;
+    margin: 15px;
+    margin-top: 20px;
+}
+.end{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+
+    
+    
+
+@media (max-width:820px) {
+    .left-container{
+        display: none;
+    }
+    .right-container{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .pra1{
+        font-size:18px;
+        margin-top: 15px;
+    }
+    .slogun{
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    .btn2{
+        width: 45%;
+        font-size: 15px;
+    }
+    .box1{
+        height: 93%;
+        width: 100%;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .name{
+        font-size: 30px;
+    }
+    .pra{
+        margin-left: 25%;
+    }
+    .box2{
+        display: none;
+
+    }
+    .content1{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .for-pragraph{
+        width: 100%;
+        order: 1;
+    }
+    .image1{
+        width: 100%;
+        order: 0;
+    }
+   
+   
+
+
+   
+}

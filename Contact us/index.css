@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bg-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.left-container{
+    height: 100%;
+    width: 20%;
+    border: 2px solid rgb(76, 75, 75);
+    position: fixed;
+
+}
+.logo{
+    height: 19%;
+    width: 100%;
+    background-image: url("/Home/acadamy\ logo.png");
+    background-size: cover;
+    background-position: center;
+}
+.for-content{
+    height: 80%;
+    width: 100%;
+    background-color: white;  
+}
+.list{
+    list-style: none;
+    font-size: 12px;
+    margin: 25px;
+    
+}
+.list li{
+    margin: 20px;
+}
+.btn{
+    border: 0px;
+    font-size: 29px;
+    background-color: white;
+}
+.right-container{
+    width: 80%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-left: 20%;
+    
+    
+}
+.hed-top{
+    margin: 10px;
+    color: rgb(44, 44, 61);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.next-line{
+    margin-left: 10px;
+}
+.container1{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.list2{
+    list-style: none;
+    margin: 30px;
+    text-align: center;
+}
+.map{
+    width: 40%;
+    height: 40%;
+    background-image: url("/Contact\ us/map.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+ .end{
+    height: 30%;
+    width: 100%;
+    
+    margin-top: 30px;
+} 
+.hed-end{
+    text-align: center;
+    font-style: italic;
+    color: rgb(36, 36, 49);
+    margin-top: 15px;
+}
+.hed-pra1{
+    text-align: center;
+    font-size: 22px;
+}
+.hed-pra2{
+    text-align: center;
+    font-size: 18px;
+}
+.hed-pra3{
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+@media (max-width:820px) {
+    .left-container{
+        display: none;
+    }
+    .right-container{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .map{
+        width: 100%;
+    }
+    .hed-end{
+        font-size: 23px;
+    }
+}
