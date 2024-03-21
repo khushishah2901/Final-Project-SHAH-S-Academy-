@@ -51,11 +51,10 @@
     justify-content: center;
 }
 .container1{
-    height: 48%;
+    height: 53%;
     width:100%;
     margin-top: 20px;
     display: flex;
-    
     align-items: center;
     justify-content: center; 
 }
@@ -102,7 +101,7 @@
     height: 12%;
     width: 27%;
     margin-left: 25px;
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 18px;
     border: none;
     border-radius: 5px;
@@ -178,6 +177,16 @@
     font-size: 20px;
 }
 
+.treadingbox{
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
 
     
     
@@ -190,6 +199,9 @@
         width: 100%;
         margin-left: 0px;
     }
+    .container1{
+        height: 55%;
+    }
     .pra1{
         font-size:18px;
         margin-top: 15px;
@@ -201,6 +213,8 @@
     .btn2{
         width: 45%;
         font-size: 15px;
+        margin-top: 0px;
+        
     }
     .box1{
         height: 93%;
@@ -224,6 +238,10 @@
         flex-direction: column;
         
     }
+    .treadkhatm{
+        text-align: left;
+        margin-top: 30px;
+    }
     .for-pragraph{
         width: 100%;
         order: 1;
@@ -232,6 +250,8 @@
         width: 100%;
         order: 0;
     }
+
+
    
    
 
